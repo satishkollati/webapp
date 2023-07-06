@@ -9,7 +9,7 @@ pipeline{
     stages{
         stage("git fertch"){
             steps{
-            git "https://github.com/satishkollati/webapplication.git"
+            git "https://github.com/satishkollati/webapp.git"
             }
         }
         stage("build the code"){
